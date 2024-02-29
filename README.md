@@ -2,8 +2,12 @@
 
 In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
-Requirements
+
+
+Requirements :
+
 Find the Best Value for k by Using the Original Data (15 points)
+
 To receive all points, you must:
 
 Code the elbow method algorithm to find the best value for k. Use a range from 1 to 11. (5 points)
