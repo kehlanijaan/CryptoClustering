@@ -28,7 +28,11 @@ Predict the clusters for grouping the cryptocurrencies by using the original dat
 
 Create a copy of the original data, and then add a new column of the predicted clusters. (1 point)
 
-Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels that you found by using K-means. 
+Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". 
+
+Color the graph points with the labels that you found by using K-means. 
+
+
 Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents. (4 points)
 
 Optimize the Clusters with Principal Component Analysis (10 points)
@@ -71,6 +75,8 @@ Predict the clusters for grouping the cryptocurrencies by using the PCA data. Re
 Create a copy of the DataFrame with the PCA data, and then add a new column to store the predicted clusters. (1 point)
 
 Using hvPlot, create a scatter plot by setting x="PC1" and y="PC2". Color the graph points with the labels that you found by using K-means. 
+
+
 Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents. (4 points)
 
 Visualize and Compare the Results (15 points)
@@ -84,6 +90,8 @@ Create a composite plot by using hvPlot and the plus (+) operator to compare the
 Answer the following question: Based on visually analyzing the cluster analysis results, what’s the impact of using fewer features to cluster the data by using K-means? (5 points)
 
 Coding Conventions and Formatting (10 points)
+
+
 To receive all points, you must:
 
 Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (3 points)
@@ -95,6 +103,8 @@ Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusabl
 Use concise logic and creative engineering where possible. (2 points)
 
 Deployment and Submission (10 points)
+
+
 To receive all points, you must:
 
 Submit a link to a GitHub repository that’s cloned to your local machine and that contains your files. (4 points)
